@@ -22,7 +22,7 @@
     "description": "My personal portfolio built from scratch showcasing my skills, projects, and experience with smooth animations and a responsive design.",
     "image": "./assets/portfolio.png",
     "stack": "HTML · CSS · JavaScript",
-    "live": "https://my-portfolio-harish.vercel.app/",
+    "live": "https://harishgowli.vercel.app/",
     "code": "https://github.com/HarishGowli/My-Portfolio",
     "category": "web"
   }

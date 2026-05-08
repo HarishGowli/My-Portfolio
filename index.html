@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish Gowli — Aspiring Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="icon" type="image/png" href="./assets/HarishPhoto.png">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+        <div id="logo">Harish Gowli.</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="./assets/resume/HarishCV.pdf" target="_blank" class="btn-resume"><i class="fa-solid fa-download"></i> Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header id="hero">
+        <div class="hero-bg-blur"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="hero-name">Harish</h1>
+                <h2 class="hero-role">Aspiring <span class="accent">Full-Stack Developer</span></h2>
+                <p class="hero-intro">A recent Information Technology graduate passionate about building modern web applications, solving real-world problems, and continuously learning new technologies with a focus on the <strong>MERN stack</strong>.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn-secondary">Let's Talk</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/harish-gowli-a23157232/" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+                    <a href="https://github.com/HarishGowli" target="_blank" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+                    <a href="https://x.com/Harishu_1458" target="_blank" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-img-ring">
+                    <div class="hero-img-wrap">
+                        <img src="./assets/HarishPhoto.png" alt="Harish Gowli profile photo">
+                    </div>
+                </div>
+                <div class="hero-float-card card-1">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="hero-float-card card-2">
+                    <i class="fa-brands fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="hero-float-card card-3">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <span class="scroll-text">Scroll</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="section-label">01 / About</div>
+        <div class="about-inner">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <p>Hi, I'm <strong>Harish Gowli</strong> — a recent Information Technology graduate, and an Aspiring Full-Stack Developer.</p>
+                <p>I'm currently strengthening my skills in <strong>Java</strong>, <strong>Data Structures & Algorithms</strong>, and the <strong>MERN stack</strong>. I enjoy building modern web applications and solving real-world problems through clean, efficient code.</p>
+                <div class="about-tags">
+                    <span class="tag">MERN Stack</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">DSA</span>
+                    <span class="tag">REST APIs</span>
+                    <span class="tag">Problem Solver</span>
+                    <span class="tag">Open to Work</span>
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">8.43</span>
+                        <span class="stat-label">CGPA / 10</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">3+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">2</span>
+                        <span class="stat-label">Internship</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">💎</span>
+                        <span class="stat-label"><strong>CodeChef <br> Diamond Badge</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience">
+        <div class="section-label">02 / Experience</div>
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <div class="timeline-title-group">
+                            <h3 class="timeline-role">Full-Stack Development Intern</h3>
+                            <p class="timeline-company"><i class="fa-solid fa-building"></i> Infosys &nbsp;·&nbsp; <span class="timeline-type">Remote</span></p>
+                        </div>
+                        <span class="timeline-duration">Oct 2025 – Dec 2025</span>
+                    </div>
+                    <ul class="timeline-bullets">
+                        <li>Developed and deployed <strong>SkillBridge</strong>, a full-stack MERN platform connecting skilled volunteers with NGOs for short-term and long-term opportunities.</li>
+                        <li>Implemented role-based authentication (Volunteer & NGO), secure login with password hashing, profile management, and dynamic dashboards tailored to each role.</li>
+                        <li>Built core features including opportunity CRUD operations, skill/location-based filtering, and real-time application tracking with live database updates.</li>
+                        <li>Strengthened professional skills in teamwork, communication, problem-solving, and project management throughout the internship.</li>
+                    </ul>
+                    <div class="timeline-tech">
+                        <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="section-label">03 / Skills</div>
+        <h2 class="section-title centered">My Skills</h2>
+        <div class="skill-grid" id="skill-grid-container"></div>
+        <div class="tools-row">
+            <p class="tools-label">Tools & Technologies</p>
+            <div class="tools-chips">
+                <span>Git / GitHub</span>
+                <span>VS Code</span>
+                <span>Postman</span>
+                <span>REST APIs</span>
+                <span>Tailwind CSS</span>
+                <span>Bootstrap</span>
+                <span>MySQL</span>
+                <span>MS Office 360</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <div class="section-label">04 / Work</div>
+        <div class="projects-header">
+            <h2 class="section-title">My Projects</h2>
+            <p class="projects-sub">Some of my recent work</p>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Apps</button>
+                <button class="filter-btn" data-filter="ml">ML</button>
+            </div>
+        </div>
+        <div class="project-grid" id="project-grid-container"></div>
+        <div class="view-all-wrap">
+            <a href="https://github.com/HarishGowli" target="_blank" class="btn-view-all">View All on GitHub <i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="section-label">05 / Contact</div>
+        <div class="contact-inner">
+            <div class="contact-left">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Have a project in mind, a role to discuss, or just want to say hello? I'd love to hear from you. Let's build something great together.</p>
+                <div class="contact-info">
+                    <a href="mailto:gowliharish321@gmail.com" class="contact-info-item">
+                        <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                        <span>gowliharish321@gmail.com</span>
+                    </a>
+                    <div class="contact-info-item">
+                        <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Adoni, Andhra Pradesh, India</span>
+                    </div>
+                    <a href="https://www.linkedin.com/in/harish-gowli-a23157232/" target="_blank" class="contact-info-item">
+                        <span class="contact-icon"><i class="fa-brands fa-linkedin"></i></span>
+                        <span>linkedin.com/in/harish-gowli</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <div class="contact-form" id="contact-form">
+                    <input class="form-input" type="text" id="user_name" placeholder="Your Name" required>
+                    <input class="form-input" type="email" id="user_email" placeholder="Your Email" required>
+                    <textarea class="form-input" id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="button" class="btn-send" id="send-btn" onclick="sendEmail()">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <p id="status-msg" style="display:none; margin-top:10px; font-size:0.88rem;"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-logo">Harish.</div>
+        <p class="footer-copy">© 2026 Harish Gowli. All rights reserved.</p>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/harish-gowli-a23157232/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/HarishGowli" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/Harishu_1458" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

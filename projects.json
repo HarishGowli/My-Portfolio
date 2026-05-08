@@ -1,0 +1,29 @@
+[
+  {
+    "title": "SkillBridge",
+    "description": "A full-stack web platform connecting skilled volunteers with NGOs for short-term and long-term opportunities, with role-based authentication and real-time application tracking.",
+    "image": "./assets/contact_manager.png",
+    "stack": "MongoDB · Express.js · React.js · Node.js",
+    "live": "#",
+    "code": "#",
+    "category": "web"
+  },
+  {
+    "title": "Contact Manager",
+    "description": "A MERN stack contact management app to store and manage personal contact details like name, phone, and email with a clean, intuitive interface.",
+    "image": "./assets/contact_manager.png",
+    "stack": "MongoDB · Express.js · React.js · Node.js",
+    "live": "#",
+    "code": "#",
+    "category": "web"
+  },
+  {
+    "title": "Portfolio",
+    "description": "My personal developer portfolio built from scratch showcasing my skills, projects, and experience with smooth animations and a responsive design.",
+    "image": "./assets/portfolio.png",
+    "stack": "HTML · CSS · JavaScript",
+    "live": "#",
+    "code": "#",
+    "category": "web"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  { "name": "Java", "icon": "fa-java", "percent": 75 },
+  { "name": "C Language", "icon": "fa-c", "percent": 80 },
+  { "name": "HTML / CSS", "icon": "fa-html5", "percent": 85 },
+  { "name": "JavaScript", "icon": "fa-js", "percent": 70 },
+  { "name": "React.js", "icon": "fa-react", "percent": 75 },
+  { "name": "Node.js / Express.js", "icon": "fa-node-js", "percent": 75 },
+  { "name": "MongoDB", "icon": "fa-database", "percent": 80 },
+  { "name": "MySQL", "icon": "fa-database", "percent": 75 }
+]

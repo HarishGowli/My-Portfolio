@@ -13,7 +13,7 @@
     "description": "A MERN stack contact management app to store and manage personal contact details like name, phone, and email with a clean, intuitive interface.",
     "image": "./assets/contact_manager.png",
     "stack": "MongoDB · Express.js · React.js · Node.js",
-    "live": "#",
+    "live": "https://contact--manager.vercel.app/",
     "code": "#",
     "category": "web"
   },

@@ -5,7 +5,7 @@ This is a personal portfolio project designed to implement and showcase Harish's
 ## Key Features
 
 - **About Me** section introducing background and professional interests.
-- **Skills Display** showcasing proficiency in Web Development, SQL, Python, Java and Video Editing.
+- **Skills Display** showcasing proficiency in Web Development, SQL, Java and Content Creation.
 - **Contact Form** for visitors to get in touch directly.
 - **Social Media Links** for easy connection to LinkedIn and GitHub.
 - **Resume Download** option to access the resume directly from the site.

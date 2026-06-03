@@ -4,8 +4,8 @@
     "description": "A full-stack web platform connecting skilled volunteers with NGOs for short-term and long-term opportunities, with role-based authentication and real-time application tracking.",
     "image": "./assets/SkillBridge.png",
     "stack": "MongoDB · Express.js · React.js · Node.js",
-    "live": "#",
-    "code": "https://github.com/HarishGowli/Skillbridge-Project",
+    "live": "https://skillbridge-frontend-kt5o.onrender.com",
+    "code": "https://github.com/HarishGowli/SkillBridge.",
     "category": "web"
   },
   {
